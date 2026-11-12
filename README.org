@@ -1,0 +1,8 @@
+* Tatr.vim
+
+Tatr wrapper for vim/neovim
+
+** Requisitos
+
++ [https://github.com/tsoding/tatr] tatr cmd line aplication in $PATH 
+
