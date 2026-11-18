@@ -6,8 +6,8 @@ function! s:Tatr(args) abort
   copen
 endfunction
 
-command! -nargs=* -complete=file TT call s:Tatr(<q-args>)
+command! -nargs=* -complete=file Tatr call s:Tatr(<q-args>)
 
 if g:tatr_short_cmd
-  command! -nargs=* -complete=file Tatr call s:Tatr(<q-args>)
+  command! -nargs=* -complete=file TT call s:Tatr(<q-args>)
 endif
